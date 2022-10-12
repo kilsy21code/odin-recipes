@@ -1,0 +1,41 @@
+body {
+background-color: rgb(206, 206, 201);
+}
+
+
+Header {
+    text-align: center;
+    font-family: cursive;
+    margin-top: 10px;
+    background-color: #fffed9;
+} 
+   
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    border: 1px; 
+    background-color: #fffed9;
+    color: black;
+    font-family: cursive;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    width: 400px;
+}
+
+img {
+    display: flex;
+    width: 400px;
+}
+
+footer {
+    text-align: center;
+    font-family: cursive;
+    margin-top: 10px; margin-left: 100px; margin-right: 100px;
+    background-color: #fffed9;
+}
+

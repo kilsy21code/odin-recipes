@@ -1,2 +1,96 @@
- 
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+Header {
+   
+    text-align: center;
+    font-family: cursive;
+    background-color: #fffed9;
+    border-radius: 40px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 700px;
+     
+} 
+
+.tb-info {
+    background-color: #fffed9;
+    color: rgb(76, 76, 76);
+    text-align: center;
+    border-radius: 25px; 
+    width: 120px;
+}
+   
+.table {
+
+    background-color: #fffed9;
+    color: rgb(76, 76, 76);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    width: 600px; 
+    padding: 5px;
+    border-radius: 25px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    line-height: 1.5;
+}
+
+.ingredients {
     
+    background-color: #fffed9;
+    color: rgb(76, 76, 76);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin: 10px;
+    width: 800px; 
+    padding: 10px;
+    border-radius: 25px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    overflow-wrap: normal;
+    line-height: 1.5;
+    
+}
+
+.steps {
+    background-color: #fffed9;
+    color: rgb(76, 76, 76);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin: 10px;
+    width: 800px; 
+    padding: 10px;
+    border-radius: 25px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    overflow-wrap: normal;
+    line-height: 1.5; 
+}
+
+ul {
+    list-style: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+.action:hover {
+    
+
+width: 120px;
+background: rgb(142, 216, 191);
+color: white;
+border-radius: 5px;
+border: 1px solid rgb(142, 216, 191);
+letter-spacing: 0.02em;
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+}
+
+.action:hover {
+    background: rgb(142, 216, 191);
+    color: white;
+}

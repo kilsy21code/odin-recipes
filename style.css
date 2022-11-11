@@ -1,13 +1,21 @@
 body {
 background-color: rgb(206, 206, 201);
+display: flex;
+align-items: center;
+align-content: center;
+flex-direction: column;
 }
 
 
 Header {
     text-align: center;
-    font-family: cursive;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
     margin-top: 10px;
     background-color: #fffed9;
+    border-radius: 40px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 90%;
 } 
    
 .flex-container {
@@ -20,22 +28,28 @@ Header {
     border: 1px; 
     background-color: #fffed9;
     color: black;
-    font-family: cursive;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     text-align: center;
     margin: 10px;
     width: 400px;
+    border-radius: 40px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 img {
     display: flex;
     width: 400px;
+    border-radius: 40px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 footer {
     text-align: center;
-    font-family: cursive;
-    margin-top: 10px; margin-left: 100px; margin-right: 100px;
+    font-family: 'Courier New', Courier, monospace;
     background-color: #fffed9;
+    border-radius: 40px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 300px;
+   
 }
-
